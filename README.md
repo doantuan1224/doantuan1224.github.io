@@ -2,7 +2,7 @@
 Xin Chào!!
 Đây là sản phẩm đầu tay của mình.
 
-Nguồn được dựa theo website: tuktukbridal.com (trang web của một người bạn)
+Nguồn tham khảo được dựa theo website: tuktukbridal.com (trang web của một người bạn)
 
 Mong nhận được sự góp ý từ mọi người.
 
