@@ -1,0 +1,12 @@
+@media screen and (max-width: 1025px) {
+  .navbar {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 415px) {
+  .navbar {
+    max-width: 100%;
+  }
+}
+
+/*# sourceMappingURL=reponsive.css.map */

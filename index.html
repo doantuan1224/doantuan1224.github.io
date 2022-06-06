@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/reponsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/154e6a7b80.js" crossorigin="anonymous"></script>
+    <title>Tuktuk Bridal</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="#" class="logo__link">
+                    <img src="./images/logo.png" alt="" class="logo__image">
+                </a>
+            </div>
+            <div class="navbar__mobile" onclick="navRep()">
+                <a href="javascript:void(0)">MENU</a>
+            </div>
+            <nav class="navbar" id="navMobile">
+                <ul class="navbar__main">
+                    <li class="navbar__item">
+                        <a href="#" class="navbar__link">trang chủ</a>
+                    </li>
+
+                    <li class="navbar__item dropdown">
+                        <a href="#" class="navbar__link">áo khoả / hỷ phục</a>
+                        <ul class="dropdown__content">
+                            <li class="dropdown__item"><a href="#">Dịch vụ cho thuê áo khoả / hỷ phục</a></li>
+                            <li class="dropdown__item"><a href="#">Áo khoả bưng quả</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="navbar__item">
+                        <a href="#" class="navbar__link">váy cưới</a>
+                    </li>
+
+                    <li class="navbar__item">
+                        <a href="#" class="navbar__link">áo dài</a>
+                    </li>
+
+                    <li class="navbar__item dropdown">
+                        <a href="#" class="navbar__link">áo bưng quả</a>
+                        <ul class="dropdown__content">
+                            <li class="dropdown__item"><a href="#">Áo bưng quả nam</a></li>
+                            <li class="dropdown__item"><a href="#">Áo bưng quả nữ</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="navbar__item">
+                        <a href="#" class="navbar__link">dịch vụ cưới</a>
+                    </li>
+
+                    <li class="navbar__item">
+                        <a href="#" class="navbar__link">liên hệ</a>
+                    </li>
+                </ul>
+                <div class="search">
+                    <input type="text" placeholder="tìm kiếm sản phẩm tại đây..." name="" id="search" size="30">
+                    <div class="search__btn">
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <div class="slider">
+            <div class="carousel">
+                <div class="carousel__content fade">
+                    <img src="./images/slide/tuktuk-1650606062-7b3eaa.jpg" alt="">
+                </div>
+
+                <div class="carousel__content fade">
+                    <img src="./images/slide/tuktuk-1650607079-e4b5fb.jpg" alt="">
+                </div>
+
+                <div class="carousel__content fade">
+                    <img src="./images/slide/tuktuk-1650606739-c40581.jpg" alt="">
+                </div>
+
+                <div class="carousel__content fade">
+                    <img src="./images/slide/tuktuk-1650606831-77d528.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+    <!-- sản phẩm bán chạy -->
+        <div class="product">
+            <div class="product__name">
+                <h3>sản phẩm bán chạy</h3>
+            </div>
+            <div class="product__list">
+                <div class="product__item">
+                    <a href="#" class="product__link">
+                        <img src="./images/product/dich-vu-cuoi/chup-album-cuoi-voi-hy-phuc-trung-hoa-1651045259-7c08af.jpg" alt="" class="product__image">
+                    </a>
+                    <div class="product__content">
+                        <a href="#" class="product__link">
+                            <h4 class="product__text">Chụp album cưới với Hỷ Phục Trung Hoa tại bảo tàng</h4>
+                        </a>
+                        <p class="product__text"></p>
+                    </div>
+                </div>
+                <div class="product__item">
+                    <a href="#" class="product__link">
+                        <img src="./images/product/dich-vu-cuoi/album-cuoi-hy-phuc-trung-hoa-tai-chua---studio-1650694658-de58a2.jpg" alt="" class="product__image">
+                    </a>
+                    <div class="product__content">
+                        <a href="#" class="product__link">
+                            <h4 class="product__text">Album cưới hỷ phục Trung Hoa tại chùa + Studio</h4>
+                        </a>
+                        <p class="product__text"></p>
+                    </div>
+                </div>
+                <div class="product__item">
+                    <a href="#" class="product__link">
+                        <img src="./images/product/vay-cuoi/ao-cuoi-trang-a07-1650694221-d58072.jpg" alt="" class="product__image">
+                    </a>
+                    <div class="product__content">
+                        <a href="#" class="product__link">
+                            <h4 class="product__text">Áo cưới trắng A07</h4>
+                        </a>
+                        <p class="product__text"></p>
+                    </div>
+                </div>
+                <div class="product__item">
+                    <a href="#" class="product__link">
+                        <img src="./images/product/vay-cuoi/ao-cuoi-trang-a05-1650693997-caa6e0.jpg" alt="" class="product__image">
+                    </a>
+                    <div class="product__content">
+                        <a href="#" class="product__link">
+                            <h4 class="product__text">Áo cưới trắng A05</h4>
+                        </a>
+                        <p class="product__text"></p>
+                    </div>
+                </div>
+                <div class="product__item">
+                    <a href="#" class="product__link">
+                        <img src="./images/product/hy-phuc/ao-khoa-cap--hy-phuc-knu19kna09-1650691315-d928d4.jpg" alt="" class="product__image">
+                    </a>
+                    <div class="product__content">
+                        <a href="#" class="product__link">
+                            <h4 class="product__text">Áo Khoả cặp/ hỷ phục KNU19-KNA09</h4>
+                        </a>
+                        <p class="product__text"></p>
+                    </div>
+                </div>
+                <div class="product__item">
+                    <a href="#" class="product__link">
+                        <img src="./images/product/dich-vu-cuoi/chup-hinh-cuoi-prewedding-phim-truong---ngoai-canh-sai-gon-1650605562-5d1a1f.jpg" alt="" class="product__image">
+                    </a>
+                    <div class="product__content">
+                        <a href="#" class="product__link">
+                            <h4 class="product__text">Chụp hình cưới Prewedding phim trường + ngoại cảnh Sài Gòn</h4>
+                        </a>
+                        <p class="product__text"></p>
+                    </div>
+                </div>
+                <div class="product__item">
+                    <a href="#" class="product__link">
+                        <img src="./images/product/dich-vu-cuoi/chuo-hinh-cuoi-prewedding-1650604615-8d1619.jpg" alt="" class="product__image">
+                    </a>
+                    <div class="product__content">
+                        <a href="#" class="product__link">
+                            <h4 class="product__text">Chụp hình cưới Prewedding ngoại cảnh + Studio</h4>
+                        </a>
+                        <p class="product__text"></p>
+                    </div>
+                </div>
+                <div class="product__item">
+                    <a href="#" class="product__link">
+                        <img src="./images/product/hy-phuc/ao-khoa-cap--hy-phuc-cap-vai-nhung-1650514359-51418e.jpg" alt="" class="product__image">
+                    </a>
+                    <div class="product__content">
+                        <a href="#" class="product__link">
+                            <h4 class="product__text">Áo Khoả cặp/ hỷ phục cặp vải nhung</h4>
+                        </a>
+                        <p class="product__text"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- áo khoả / hỷ phục -->
+    <div class="product">
+        <div class="product__name">
+            <h3>áo khoả / hỷ phục</h3>
+        </div>
+        <div class="product__list">
+            <div class="product__item">
+                <a href="#" class="product__link">
+                    <img src="./images/product/hy-phuc/ao-khoa--hy-phuc-nam-nu-knu21kna12-1651044773-53c3a8.jpg" alt="" class="product__image">
+                </a>
+                <div class="product__content">
+                    <a href="#" class="product__link">
+                        <h4 class="product__text">Áo khoả/ hỷ phục nam nữ KNU21-KNA12</h4>
+                    </a>
+                    <p class="product__text"></p>
+                </div>
+            </div>
+            <div class="product__item">
+                <a href="#" class="product__link">
+                    <img src="./images/product/hy-phuc/hy-phuc--ao-khoa-cap-1651044567-0d9072.jpg" alt="" class="product__image">
+                </a>
+                <div class="product__content">
+                    <a href="#" class="product__link">
+                        <h4 class="product__text">Hỷ phục/ áo khoả Trung Hoa</h4>
+                    </a>
+                    <p class="product__text"></p>
+                </div>
+            </div>
+            <div class="product__item">
+                <a href="#" class="product__link">
+                    <img src="./images/product/hy-phuc/ao-khoa-cap--hy-phuc-vay-vang-1650692472-5e6289.jpg" alt="" class="product__image">
+                </a>
+                <div class="product__content">
+                    <a href="#" class="product__link">
+                        <h4 class="product__text">Áo Khoả cặp/ hỷ phục váy vàng</h4>
+                    </a>
+                    <p class="product__text"></p>
+                </div>
+            </div>
+            <div class="product__item">
+                <a href="#" class="product__link">
+                    <img src="./images/product/hy-phuc/khoa-nu-trung-hoa-style-hoang-hau-1650691981-bf1bcf.jpg" alt="" class="product__image">
+                </a>
+                <div class="product__content">
+                    <a href="#" class="product__link">
+                        <h4 class="product__text">Hỷ phục/ Khoả nữ Trung Hoa style Hoàng Hậu</h4>
+                    </a>
+                    <p class="product__text"></p>
+                </div>
+            </div>
+            <div class="product__item">
+                <a href="#" class="product__link">
+                    <img src="./images/product/hy-phuc/ao-khoa--hy-phuc-nam-nu-knu21kna12-1651044773-53c3a8.jpg" alt="" class="product__image">
+                </a>
+                <div class="product__content">
+                    <a href="#" class="product__link">
+                        <h4 class="product__text">Áo khoả/ hỷ phục nam nữ KNU21-KNA12</h4>
+                    </a>
+                    <p class="product__text"></p>
+                </div>
+            </div>
+            <div class="product__item">
+                <a href="#" class="product__link">
+                    <img src="./images/product/hy-phuc/hy-phuc--ao-khoa-cap-1651044567-0d9072.jpg" alt="" class="product__image">
+                </a>
+                <div class="product__content">
+                    <a href="#" class="product__link">
+                        <h4 class="product__text">Hỷ phục/ áo khoả Trung Hoa</h4>
+                    </a>
+                    <p class="product__text"></p>
+                </div>
+            </div>
+            <div class="product__item">
+                <a href="#" class="product__link">
+                    <img src="./images/product/hy-phuc/ao-khoa-cap--hy-phuc-vay-vang-1650692472-5e6289.jpg" alt="" class="product__image">
+                </a>
+                <div class="product__content">
+                    <a href="#" class="product__link">
+                        <h4 class="product__text">Áo Khoả cặp/ hỷ phục váy vàng</h4>
+                    </a>
+                    <p class="product__text"></p>
+                </div>
+            </div>
+            <div class="product__item">
+                <a href="#" class="product__link">
+                    <img src="./images/product/hy-phuc/khoa-nu-trung-hoa-style-hoang-hau-1650691981-bf1bcf.jpg" alt="" class="product__image">
+                </a>
+                <div class="product__content">
+                    <a href="#" class="product__link">
+                        <h4 class="product__text">Hỷ phục/ Khoả nữ Trung Hoa style Hoàng Hậu</h4>
+                    </a>
+                    <p class="product__text"></p>
+                </div>
+            </div>
+            <div class="product__item">
+                <a href="#" class="product__link">
+                    <img src="./images/product/hy-phuc/ao-khoa--hy-phuc-nam-nu-knu21kna12-1651044773-53c3a8.jpg" alt="" class="product__image">
+                </a>
+                <div class="product__content">
+                    <a href="#" class="product__link">
+                        <h4 class="product__text">Áo khoả/ hỷ phục nam nữ KNU21-KNA12</h4>
+                    </a>
+                    <p class="product__text"></p>
+                </div>
+            </div>
+            <div class="product__item">
+                <a href="#" class="product__link">
+                    <img src="./images/product/hy-phuc/hy-phuc--ao-khoa-cap-1651044567-0d9072.jpg" alt="" class="product__image">
+                </a>
+                <div class="product__content">
+                    <a href="#" class="product__link">
+                        <h4 class="product__text">Hỷ phục/ áo khoả Trung Hoa</h4>
+                    </a>
+                    <p class="product__text"></p>
+                </div>
+            </div>
+            <div class="product__item">
+                <a href="#" class="product__link">
+                    <img src="./images/product/hy-phuc/ao-khoa-cap--hy-phuc-vay-vang-1650692472-5e6289.jpg" alt="" class="product__image">
+                </a>
+                <div class="product__content">
+                    <a href="#" class="product__link">
+                        <h4 class="product__text">Áo Khoả cặp/ hỷ phục váy vàng</h4>
+                    </a>
+                    <p class="product__text"></p>
+                </div>
+            </div>
+            <div class="product__item">
+                <a href="#" class="product__link">
+                    <img src="./images/product/hy-phuc/khoa-nu-trung-hoa-style-hoang-hau-1650691981-bf1bcf.jpg" alt="" class="product__image">
+                </a>
+                <div class="product__content">
+                    <a href="#" class="product__link">
+                        <h4 class="product__text">Hỷ phục/ Khoả nữ Trung Hoa style Hoàng Hậu</h4>
+                    </a>
+                    <p class="product__text"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- váy cưới -->
+    <div class="product">
+        <div class="product__name">
+            <h3>váy cưới</h3>
+        </div>
+        <div class="product__list">
+            <div class="product__item">
+                <a href="#" class="product__link">
+                    <img src="./images/product/vay-cuoi/ao-cuoi-trang-di-ban-a08-1650694362-5a4e6d.jpg" alt="" class="product__image">
+                </a>
+                <div class="product__content">
+                    <a href="#" class="product__link">
+                        <h4 class="product__text">Áo cưới trắng đi bàn A08</h4>
+                    </a>
+                    <p class="product__text"></p>
+                </div>
+            </div>
+            <div class="product__item">
+                <a href="#" class="product__link">
+                    <img src="./images/product/vay-cuoi/ao-cuoi-trang-a07-1650694221-d58072.jpg" alt="" class="product__image">
+                </a>
+                <div class="product__content">
+                    <a href="#" class="product__link">
+                        <h4 class="product__text">Áo cưới trắng A07</h4>
+                    </a>
+                    <p class="product__text"></p>
+                </div>
+            </div>
+            <div class="product__item">
+                <a href="#" class="product__link">
+                    <img src="./images/product/vay-cuoi/ao-cuoi-trang-a06-1650694057-54229a.jpg" alt="" class="product__image">
+                </a>
+                <div class="product__content">
+                    <a href="#" class="product__link">
+                        <h4 class="product__text">Áo cưới trắng A06</h4>
+                    </a>
+                    <p class="product__text"></p>
+                </div>
+            </div>
+            <div class="product__item">
+                <a href="#" class="product__link">
+                    <img src="./images/product/vay-cuoi/ao-cuoi-trang-a05-1650693997-caa6e0.jpg" alt="" class="product__image">
+                </a>
+                <div class="product__content">
+                    <a href="#" class="product__link">
+                        <h4 class="product__text">Áo cưới trắng A05</h4>
+                    </a>
+                    <p class="product__text"></p>
+                </div>
+            </div>
+            <div class="product__item">
+                <a href="#" class="product__link">
+                    <img src="./images/product/vay-cuoi/ao-cuoi-trang-di-ban-a08-1650694362-5a4e6d.jpg" alt="" class="product__image">
+                </a>
+                <div class="product__content">
+                    <a href="#" class="product__link">
+                        <h4 class="product__text">Áo cưới trắng đi bàn A08</h4>
+                    </a>
+                    <p class="product__text"></p>
+                </div>
+            </div>
+            <div class="product__item">
+                <a href="#" class="product__link">
+                    <img src="./images/product/vay-cuoi/ao-cuoi-trang-a07-1650694221-d58072.jpg" alt="" class="product__image">
+                </a>
+                <div class="product__content">
+                    <a href="#" class="product__link">
+                        <h4 class="product__text">Áo cưới trắng A07</h4>
+                    </a>
+                    <p class="product__text"></p>
+                </div>
+            </div>
+            <div class="product__item">
+                <a href="#" class="product__link">
+                    <img src="./images/product/vay-cuoi/ao-cuoi-trang-a06-1650694057-54229a.jpg" alt="" class="product__image">
+                </a>
+                <div class="product__content">
+                    <a href="#" class="product__link">
+                        <h4 class="product__text">Áo cưới trắng A06</h4>
+                    </a>
+                    <p class="product__text"></p>
+                </div>
+            </div>
+            <div class="product__item">
+                <a href="#" class="product__link">
+                    <img src="./images/product/vay-cuoi/ao-cuoi-trang-a05-1650693997-caa6e0.jpg" alt="" class="product__image">
+                </a>
+                <div class="product__content">
+                    <a href="#" class="product__link">
+                        <h4 class="product__text">Áo cưới trắng A05</h4>
+                    </a>
+                    <p class="product__text"></p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- áo dài -->
+    <div class="product">
+        <div class="product__name">
+            <h3>áo dài</h3>
+        </div>
+        <div class="product__list">
+            <div class="product__item">
+                <a href="#" class="product__link">
+                    <img src="./images/product/ao-dai/ao-dai-co-dau-trang-don-gian-1651045821-e637cd.jpg" alt="" class="product__image">
+                </a>
+                <div class="product__content">
+                    <a href="#" class="product__link">
+                        <h4 class="product__text">Áo dài cô dâu trắng đơn giản</h4>
+                    </a>
+                    <p class="product__text"></p>
+                </div>
+            </div>
+            <div class="product__item">
+                <a href="#" class="product__link">
+                    <img src="./images/product/ao-dai/ao-dai-co-dau-trang-don-gian-1651045821-e637cd.jpg" alt="" class="product__image">
+                </a>
+                <div class="product__content">
+                    <a href="#" class="product__link">
+                        <h4 class="product__text">Áo dài cô dâu trắng đơn giản</h4>
+                    </a>
+                    <p class="product__text"></p>
+                </div>
+            </div>
+            <div class="product__item">
+                <a href="#" class="product__link">
+                    <img src="./images/product/ao-dai/ao-dai-co-dau-trang-don-gian-1651045821-e637cd.jpg" alt="" class="product__image">
+                </a>
+                <div class="product__content">
+                    <a href="#" class="product__link">
+                        <h4 class="product__text">Áo dài cô dâu trắng đơn giản</h4>
+                    </a>
+                    <p class="product__text"></p>
+                </div>
+            </div>
+            <div class="product__item">
+                <a href="#" class="product__link">
+                    <img src="./images/product/ao-dai/ao-dai-co-dau-trang-don-gian-1651045821-e637cd.jpg" alt="" class="product__image">
+                </a>
+                <div class="product__content">
+                    <a href="#" class="product__link">
+                        <h4 class="product__text">Áo dài cô dâu trắng đơn giản</h4>
+                    </a>
+                    <p class="product__text"></p>
+                </div>
+            </div>
+            <div class="product__item">
+                <a href="#" class="product__link">
+                    <img src="./images/product/ao-dai/ao-dai-co-dau-trang-don-gian-1651045821-e637cd.jpg" alt="" class="product__image">
+                </a>
+                <div class="product__content">
+                    <a href="#" class="product__link">
+                        <h4 class="product__text">Áo dài cô dâu trắng đơn giản</h4>
+                    </a>
+                    <p class="product__text"></p>
+                </div>
+            </div>
+            <div class="product__item">
+                <a href="#" class="product__link">
+                    <img src="./images/product/ao-dai/ao-dai-co-dau-trang-don-gian-1651045821-e637cd.jpg" alt="" class="product__image">
+                </a>
+                <div class="product__content">
+                    <a href="#" class="product__link">
+                        <h4 class="product__text">Áo dài cô dâu trắng đơn giản</h4>
+                    </a>
+                    <p class="product__text"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- áo bưng quả -->
+    <div class="product">
+        <div class="product__name">
+            <h3>áo bưng quả</h3>
+        </div>
+        <div class="product__list">
+            <div class="product__item">
+                <a href="#" class="product__link">
+                    <img src="./images/product/ao-bung-qua/ao-bung-qua-khoa-trung-hoa-01-1650701887-99071c.jpg" alt="" class="product__image">
+                </a>
+                <div class="product__content">
+                    <a href="#" class="product__link">
+                        <h4 class="product__text">Áo bưng quả khoả Trung Hoa 01</h4>
+                    </a>
+                    <p class="product__text"></p>
+                </div>
+            </div>
+            <div class="product__item">
+                <a href="#" class="product__link">
+                    <img src="./images/product/ao-bung-qua/ao-bung-qua-khoa-trung-hoa-01-1650701887-99071c.jpg" alt="" class="product__image">
+                </a>
+                <div class="product__content">
+                    <a href="#" class="product__link">
+                        <h4 class="product__text">Áo bưng quả khoả Trung Hoa 01</h4>
+                    </a>
+                    <p class="product__text"></p>
+                </div>
+            </div>
+            <div class="product__item">
+                <a href="#" class="product__link">
+                    <img src="./images/product/ao-bung-qua/ao-bung-qua-khoa-trung-hoa-01-1650701887-99071c.jpg" alt="" class="product__image">
+                </a>
+                <div class="product__content">
+                    <a href="#" class="product__link">
+                        <h4 class="product__text">Áo bưng quả khoả Trung Hoa 01</h4>
+                    </a>
+                    <p class="product__text"></p>
+                </div>
+            </div>
+            <div class="product__item">
+                <a href="#" class="product__link">
+                    <img src="./images/product/ao-bung-qua/ao-bung-qua-khoa-trung-hoa-01-1650701887-99071c.jpg" alt="" class="product__image">
+                </a>
+                <div class="product__content">
+                    <a href="#" class="product__link">
+                        <h4 class="product__text">Áo bưng quả khoả Trung Hoa 01</h4>
+                    </a>
+                    <p class="product__text"></p>
+                </div>
+            </div>
+            <div class="product__item">
+                <a href="#" class="product__link">
+                    <img src="./images/product/ao-bung-qua/ao-bung-qua-khoa-trung-hoa-01-1650701887-99071c.jpg" alt="" class="product__image">
+                </a>
+                <div class="product__content">
+                    <a href="#" class="product__link">
+                        <h4 class="product__text">Áo bưng quả khoả Trung Hoa 01</h4>
+                    </a>
+                    <p class="product__text"></p>
+                </div>
+            </div>
+            <div class="product__item">
+                <a href="#" class="product__link">
+                    <img src="./images/product/ao-bung-qua/ao-bung-qua-khoa-trung-hoa-01-1650701887-99071c.jpg" alt="" class="product__image">
+                </a>
+                <div class="product__content">
+                    <a href="#" class="product__link">
+                        <h4 class="product__text">Áo bưng quả khoả Trung Hoa 01</h4>
+                    </a>
+                    <p class="product__text"></p>
+                </div>
+            </div>
+            <div class="product__item">
+                <a href="#" class="product__link">
+                    <img src="./images/product/ao-bung-qua/ao-bung-qua-khoa-trung-hoa-01-1650701887-99071c.jpg" alt="" class="product__image">
+                </a>
+                <div class="product__content">
+                    <a href="#" class="product__link">
+                        <h4 class="product__text">Áo bưng quả khoả Trung Hoa 01</h4>
+                    </a>
+                    <p class="product__text"></p>
+                </div>
+            </div>
+            <div class="product__item">
+                <a href="#" class="product__link">
+                    <img src="./images/product/ao-bung-qua/ao-bung-qua-khoa-trung-hoa-01-1650701887-99071c.jpg" alt="" class="product__image">
+                </a>
+                <div class="product__content">
+                    <a href="#" class="product__link">
+                        <h4 class="product__text">Áo bưng quả khoả Trung Hoa 01</h4>
+                    </a>
+                    <p class="product__text"></p>
+                </div>
+            </div>
+            <div class="product__item">
+                <a href="#" class="product__link">
+                    <img src="./images/product/ao-bung-qua/ao-bung-qua-khoa-trung-hoa-01-1650701887-99071c.jpg" alt="" class="product__image">
+                </a>
+                <div class="product__content">
+                    <a href="#" class="product__link">
+                        <h4 class="product__text">Áo bưng quả khoả Trung Hoa 01</h4>
+                    </a>
+                    <p class="product__text"></p>
+                </div>
+            </div>
+            <div class="product__item">
+                <a href="#" class="product__link">
+                    <img src="./images/product/ao-bung-qua/ao-bung-qua-khoa-trung-hoa-01-1650701887-99071c.jpg" alt="" class="product__image">
+                </a>
+                <div class="product__content">
+                    <a href="#" class="product__link">
+                        <h4 class="product__text">Áo bưng quả khoả Trung Hoa 01</h4>
+                    </a>
+                    <p class="product__text"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- dịch vụ cưới -->
+    <div class="product">
+        <div class="product__name">
+            <h3>dịch vụ cưới</h3>
+        </div>
+        <div class="product__list">
+            <div class="product__item">
+                <a href="#" class="product__link">
+                    <img src="./images/product/dich-vu-cuoi/chup-album-cuoi-voi-hy-phuc-trung-hoa-1651045259-7c08af.jpg" alt="" class="product__image">
+                </a>
+                <div class="product__content">
+                    <a href="#" class="product__link">
+                        <h4 class="product__text">Chụp album cưới với Hỷ Phục Trung Hoa tại bảo tàng</h4>
+                    </a>
+                    <p class="product__text"></p>
+                </div>
+            </div>
+            <div class="product__item">
+                <a href="#" class="product__link">
+                    <img src="./images/product/dich-vu-cuoi/album-cuoi-hy-phuc-trung-hoa-tai-chua---studio-1650694658-de58a2.jpg" alt="" class="product__image">
+                </a>
+                <div class="product__content">
+                    <a href="#" class="product__link">
+                        <h4 class="product__text">Album cưới hỷ phục Trung Hoa tại chùa + Studio</h4>
+                    </a>
+                    <p class="product__text"></p>
+                </div>
+            </div>
+            <div class="product__item">
+                <a href="#" class="product__link">
+                    <img src="./images/product/dich-vu-cuoi/chup-hinh-cuoi-prewedding-phim-truong---ngoai-canh-sai-gon-1650605562-5d1a1f.jpg" alt="" class="product__image">
+                </a>
+                <div class="product__content">
+                    <a href="#" class="product__link">
+                        <h4 class="product__text">Chụp hình cưới Prewedding phim trường + ngoại cảnh Sài Gòn</h4>
+                    </a>
+                    <p class="product__text"></p>
+                </div>
+            </div>
+            <div class="product__item">
+                <a href="#" class="product__link">
+                    <img src="./images/product/dich-vu-cuoi/chuo-hinh-cuoi-prewedding-1650604615-8d1619.jpg" alt="" class="product__image">
+                </a>
+                <div class="product__content">
+                    <a href="#" class="product__link">
+                        <h4 class="product__text">Chụp hình cưới Prewedding ngoại cảnh + Studio</h4>
+                    </a>
+                    <p class="product__text"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- sản phẩm đang sale -->
+
+    <!-- tin tức nổi bật -->
+
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+<script src="./js/app.js"></script>
+</html>
